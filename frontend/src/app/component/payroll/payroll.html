@@ -1,0 +1,104 @@
+<div class="PayRoll-container">
+    <h2 >Pay Roll Management</h2>
+
+    <div class="form-card">
+    <h3>{{ isEditing ? 'Edit PayRoll' : 'Add New PayRoll' }}</h3>
+    <form (ngSubmit)="savePayRoll()" #payrollForm = "ngForm" >
+        <div class="form-grid">
+
+            <div class="form-group">
+                <label>EmployeeId</label>
+                <input 
+                type="text"
+                [(ngModel)] = "currentPayRoll.employeeId"
+                name="EmployeeId"
+                required
+                placeholder="Employee Id"/>
+            </div>
+
+            <div class="form-group">
+                <label> Basic Salary</label>
+                <input 
+                type="text"
+                [(ngModel)] = "currentPayRoll.basicSalary"
+                name="basicSalary"
+                required
+                placeholder="basicSalary"
+                />
+            </div>
+
+            <div class="form-group">
+                <label > Allowances</label>
+                <input
+                type="text"
+                [(ngModel)] = "currentPayRoll.allowances"
+                required
+                name="allowances"
+                placeholder="Allowances"
+                >
+            </div>
+            <!-- <div class="form-group">
+                <label>Deductions</label>
+                <input type="text"
+                [(ngModel)] = "currentPayRoll.deductions"
+                name="deductions"
+                required
+                placeholder="Deductions"
+                >
+            </div> -->
+          
+            <div class="form-group">
+                <label>Pay Date</label>
+                <input type="date" 
+                [(ngModel)] = "currentPayRoll.payDate"
+                name="payRollDate"
+                required
+                placeholder="payRollDate">
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn-primary">
+                {{isEditing? 'updatePayRoll': 'AddPayRoll'}}
+            </button>
+            <button *ngIf="isEditing" type="button" class=" btn cancel" (click)="cancelEdit()"> Cancel</button>
+        </div>
+    </form>
+    </div>
+
+
+    <div class="table-card">
+        <h3>PayRoll list</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pay Roll Id</th>
+                        <th>Employee Id</th>
+                        <th>Basic Salary</th>
+                        <th>Allowances</th>
+                        <th>Deductions</th>
+                        <th>Net Salary</th>
+                        <th>Pay Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+            
+            <tbody>
+                <tr *ngFor="let pay of payrolls">
+                    <td>{{pay.payRollId}}</td>
+                    <td>{{pay.employeeId}}</td>
+                    <td>{{pay.basicSalary}}</td>
+                    <td>{{pay.allowances}}</td>
+                    <td>{{pay.deductions}}</td>
+                    <td>{{pay.netSalary}}</td>
+                    <td>{{pay.payDate}}</td>
+
+                    <td class="actions">
+                        <button class="edit" (click)="editPayRoll(pay)">Edit</button>
+                        <button class="delete" (click)="deletePayRoll(pay.payRollId)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

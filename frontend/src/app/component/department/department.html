@@ -1,0 +1,40 @@
+<div class="department-container">
+  <h2>Departments</h2>
+
+  <!-- Add / Edit Department Form -->
+  <div class="form">
+    <h3>{{ isEditing ? 'Edit Department' : 'Add Department' }}</h3>
+
+    <input [(ngModel)]="currentDepartment.name" placeholder="Name" />
+    <input [(ngModel)]="currentDepartment.description" placeholder="Description" />
+
+    <button (click)="saveDepartment()">
+      {{ isEditing ? 'Update' : 'Add' }}
+    </button>
+
+    <button *ngIf="isEditing" (click)="cancelEdit()">Cancel</button>
+  </div>
+
+  <!-- Departments Table -->
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dept of departments">
+        <td>{{ dept.departmentId }}</td>
+        <td>{{ dept.name }}</td>
+        <td>{{ dept.description }}</td>
+        <td>
+          <button (click)="editDepartment(dept)">Edit</button>
+          <button (click)="deleteDepartment(dept.departmentId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

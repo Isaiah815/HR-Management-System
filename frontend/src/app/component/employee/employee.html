@@ -1,0 +1,110 @@
+<div class="employee-container">
+  <h2 class="title">Employee Management</h2>
+
+  <!-- ================== EMPLOYEE FORM ================== -->
+  <div class="form-card">
+    <h3>{{ isEditing ? 'Edit Employee' : 'Add New Employee' }}</h3>
+
+    <form (ngSubmit)="saveEmployee()" #empForm="ngForm">
+      <div class="form-grid">
+        <div class="form-group">
+          <label>First Name</label>
+          <input
+            type="text"
+            [(ngModel)]="currentEmployee.firstName"
+            name="firstName"
+            required
+            placeholder="Enter first name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Last Name</label>
+          <input
+            type="text"
+            [(ngModel)]="currentEmployee.lastName"
+            name="lastName"
+            required
+            placeholder="Enter last name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input
+            type="email"
+            [(ngModel)]="currentEmployee.email"
+            name="email"
+            required
+            placeholder="example@gmail.com"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Job Title</label>
+          <input
+            type="text"
+            [(ngModel)]="currentEmployee.jobTitle"
+            name="jobTitle"
+            required
+            placeholder="Enter job title"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Department ID</label>
+          <input
+            type="number"
+            [(ngModel)]="currentEmployee.departmentId"
+            name="departmentId"
+            required
+            placeholder="Enter department ID"
+          />
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn primary">
+          {{ isEditing ? 'Update Employee' : 'Add Employee' }}
+        </button>
+        <button *ngIf="isEditing" type="button" class="btn cancel" (click)="cancelEdit()">
+          Cancel
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ================== EMPLOYEE TABLE ================== -->
+  <div class="table-card">
+    <h3>Employees List</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Job Title</th>
+          <th>Department ID</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let emp of employees">
+          <td>{{ emp.id }}</td>
+          <td>{{ emp.firstName }}</td>
+          <td>{{ emp.lastName }}</td>
+          <td>{{ emp.email }}</td>
+          <td>{{ emp.jobTitle }}</td>
+          <td>{{ emp.departmentId }}</td>
+          <td class="actions">
+            <button class="btn edit" (click)="editEmployee(emp)">Edit</button>
+            <button class="btn delete" (click)="deleteEmployee(emp.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="login-container">
+  <div class="login-card">
+    <h2>HR Management System</h2>
+    <p class="subtitle">Sign in to continue</p>
+
+    <form (ngSubmit)="login()" #loginForm="ngForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          [(ngModel)]="loginData.username"
+          required
+          placeholder="Enter your username"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          [(ngModel)]="loginData.password"
+          required
+          placeholder="Enter your password"
+        />
+      </div>
+
+      <button type="submit" [disabled]="!loginForm.valid">Login</button>
+    </form>
+
+    <div class="footer">
+      <p>Forgot your password?</p>
+    </div>
+  </div>
+</div>

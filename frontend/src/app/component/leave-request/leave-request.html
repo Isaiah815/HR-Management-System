@@ -1,0 +1,95 @@
+<div class="leave-container">
+  <h2>{{ isEditing ? 'Edit Leave Request' : 'New Leave Request' }}</h2>
+
+  <form (ngSubmit)="saveLeave()" class="leave-form">
+
+    <div class="form-row">
+      <label>Employee ID</label>
+      <input type="number"[(ngModel)] = "currentLeave.employeeId" name="employeeId" required/>
+     
+    </div>
+
+    <div class="form-row">
+      <label>Department ID</label>
+      <input type="number" [(ngModel)] = "currentLeave.departmentId" name="departmentId" required/>
+      
+    </div>
+
+    <div class="form-row">
+      <label>Start Date</label>
+      <input type="date" [(ngModel)]="currentLeave.startDate" name="startDate" required />
+    </div>
+
+    <div class="form-row">
+      <label>End Date</label>
+      <input type="date" [(ngModel)]="currentLeave.endDate" name="endDate" required />
+    </div>
+
+    <div class="form-row">
+      <label>Reason</label>
+      <textarea [(ngModel)]="currentLeave.reason" name="reason" required></textarea>
+    </div>
+
+    <div class="form-row">
+      <label>Status</label>
+      <select [(ngModel)]="currentLeave.status" name="status">
+        <option [value]="0">Pending</option>
+        <option [value]="1">Approved</option>
+        <option [value]="2">Rejected</option>
+      </select>
+    </div>
+
+    <div class="action-buttons">
+      <button type="button" class="btn btn-primary" (click)="saveLeave()"> Save
+       
+      </button>
+      <button type="button" class="btn btn-secondary" (click)="resetForm()">Cancel</button>
+    </div>
+  </form>
+
+  <hr />
+
+  <h3>Leave Requests</h3>
+
+  <table class="leave-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Employee ID</th>
+        <th>Department ID</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Reason</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let leave of leaveRequests">
+        <td>{{ leave.id }}</td>
+        <td>{{ leave.employeeId }}</td>
+        <td>{{ leave.departmentId }}</td>
+        <td>{{ leave.startDate | date: 'shortDate' }}</td>
+        <td>{{ leave.endDate | date: 'shortDate' }}</td>
+        <td>{{ leave.reason }}</td>
+        <td>
+  <span
+    [ngClass]="{
+      pending: leave.status === 'Pending',
+      approved: leave.status === 'Approved',
+      rejected: leave.status === 'Rejected'
+    }"
+  >
+    {{ leave.status }}
+  </span>
+</td>
+
+
+        <td>
+          <button class="btn edit" (click)="editLeave(leave)">Edit</button>
+          <button class="btn delete" (click)="deleteLeave(leave.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
