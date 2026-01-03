@@ -1,0 +1,427 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\HR management system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\migrations\\20260103131329_createusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\migrations\\20260103131329_createusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\migrations\\apidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\migrations\\apidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\models\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\models\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\models\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\models\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\models\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\models\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\migrations\\20260103084602_removeforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\migrations\\20260103084602_removeforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\migrations\\20251231151831_addforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\migrations\\20251231151831_addforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\controllers\\payrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\controllers\\payrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\migrations\\20251011152825_setdefaultdateinattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\migrations\\20251011152825_setdefaultdateinattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\migrations\\20251011145305_adddatetoattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\migrations\\20251011145305_adddatetoattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\migrations\\20251011092518_makechecktimesnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\migrations\\20251011092518_makechecktimesnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\models\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\models\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\models\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\models\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|c:\\users\\hp\\desktop\\hr management system\\hr management system\\migrations\\20251011153321_adddefaultdatetoattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE914C4-2077-4874-A15F-CC1A3CADCACF}|HR management system\\HR management system.csproj|solutionrelative:hr management system\\migrations\\20251011153321_adddefaultdatetoattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260103131329_CreateUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20260103131329_CreateUserTable.cs",
+              "RelativeDocumentMoniker": "HR management system\\Migrations\\20260103131329_CreateUserTable.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20260103131329_CreateUserTable.cs",
+              "RelativeToolTip": "HR management system\\Migrations\\20260103131329_CreateUserTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T13:13:32.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "HR management system\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "HR management system\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:51:18.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HR management system\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HR management system\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:51:02.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\APIDBContext.cs",
+              "RelativeDocumentMoniker": "HR management system\\Models\\APIDBContext.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\APIDBContext.cs",
+              "RelativeToolTip": "HR management system\\Models\\APIDBContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T05:14:32.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "APIDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\APIDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "HR management system\\Migrations\\APIDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\APIDBContextModelSnapshot.cs",
+              "RelativeToolTip": "HR management system\\Migrations\\APIDBContextModelSnapshot.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T09:30:48.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\UserResponseDTO.cs",
+              "RelativeDocumentMoniker": "HR management system\\Models\\DTOs\\UserResponseDTO.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\UserResponseDTO.cs",
+              "RelativeToolTip": "HR management system\\Models\\DTOs\\UserResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T14:27:06.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "HR management system\\Models\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "HR management system\\Models\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T14:25:22.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "HR management system\\Models\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "HR management system\\Models\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T14:26:05.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForgotPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\ForgotPasswordDTO.cs",
+              "RelativeDocumentMoniker": "HR management system\\Models\\DTOs\\ForgotPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\ForgotPasswordDTO.cs",
+              "RelativeToolTip": "HR management system\\Models\\DTOs\\ForgotPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:11:11.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260103084602_removeForgotPassword.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20260103084602_removeForgotPassword.cs",
+              "RelativeDocumentMoniker": "HR management system\\Migrations\\20260103084602_removeForgotPassword.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20260103084602_removeForgotPassword.cs",
+              "RelativeToolTip": "HR management system\\Migrations\\20260103084602_removeForgotPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:46:14.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20251231151831_AddforgotPassword.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251231151831_AddforgotPassword.cs",
+              "RelativeDocumentMoniker": "HR management system\\Migrations\\20251231151831_AddforgotPassword.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251231151831_AddforgotPassword.cs",
+              "RelativeToolTip": "HR management system\\Migrations\\20251231151831_AddforgotPassword.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:18:36.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HR management system\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HR management system\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-30T09:58:57.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Program.cs",
+              "RelativeDocumentMoniker": "HR management system\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Program.cs",
+              "RelativeToolTip": "HR management system\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T09:16:16.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "HR management system\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "HR management system\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T05:19:29.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20251011145305_AddDateToAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251011145305_AddDateToAttendance.cs",
+              "RelativeDocumentMoniker": "HR management system\\Migrations\\20251011145305_AddDateToAttendance.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251011145305_AddDateToAttendance.cs",
+              "RelativeToolTip": "HR management system\\Migrations\\20251011145305_AddDateToAttendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:33:52.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\appsettings.json",
+              "RelativeDocumentMoniker": "HR management system\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\appsettings.json",
+              "RelativeToolTip": "HR management system\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T09:11:42.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20251011152825_SetDefaultDateInAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251011152825_SetDefaultDateInAttendance.cs",
+              "RelativeDocumentMoniker": "HR management system\\Migrations\\20251011152825_SetDefaultDateInAttendance.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251011152825_SetDefaultDateInAttendance.cs",
+              "RelativeToolTip": "HR management system\\Migrations\\20251011152825_SetDefaultDateInAttendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:33:49.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PayRollController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Controllers\\PayRollController.cs",
+              "RelativeDocumentMoniker": "HR management system\\Controllers\\PayRollController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Controllers\\PayRollController.cs",
+              "RelativeToolTip": "HR management system\\Controllers\\PayRollController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAABQwC4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T14:20:19.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20251011092518_MakeCheckTimesNullable.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251011092518_MakeCheckTimesNullable.cs",
+              "RelativeDocumentMoniker": "HR management system\\Migrations\\20251011092518_MakeCheckTimesNullable.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251011092518_MakeCheckTimesNullable.cs",
+              "RelativeToolTip": "HR management system\\Migrations\\20251011092518_MakeCheckTimesNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:34:00.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "HR management system\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "HR management system\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:27:02.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AttendanceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\AttendanceDTO.cs",
+              "RelativeDocumentMoniker": "HR management system\\Models\\DTOs\\AttendanceDTO.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\DTOs\\AttendanceDTO.cs",
+              "RelativeToolTip": "HR management system\\Models\\DTOs\\AttendanceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:26:45.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\Attendance.cs",
+              "RelativeDocumentMoniker": "HR management system\\Models\\Entities\\Attendance.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\Attendance.cs",
+              "RelativeToolTip": "HR management system\\Models\\Entities\\Attendance.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:25:28.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20251011153321_AddDefaultDateToAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251011153321_AddDefaultDateToAttendance.cs",
+              "RelativeDocumentMoniker": "HR management system\\Migrations\\20251011153321_AddDefaultDateToAttendance.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Migrations\\20251011153321_AddDefaultDateToAttendance.cs",
+              "RelativeToolTip": "HR management system\\Migrations\\20251011153321_AddDefaultDateToAttendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:33:41.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

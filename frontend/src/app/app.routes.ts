@@ -4,23 +4,32 @@ import { EmployeeComponent } from './component/employee/employee';
 import { LeaveRequestComponent } from './component/leave-request/leave-request';
 import { AttendanceComponent } from './component/attendance/attendance';
 import { PayrollComponent } from './component/payroll/payroll';
-import { LoginComponent } from './component/login/login';
 import { DashboardComponent } from './component/dashboard/dashboard';
+import { LoginComponent } from './pages/login/login';
+import { RegisterComponent } from './pages/register/register';
+import { authGuard } from './guards/auth-guard';
+import { MainLayoutComponent } from './component/main-layout/main-layout';
 
 export const routes: Routes = [
-  // 🟢 Default route → goes to login page
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent },
-  // 🟢 Login route
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+
   { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
 
-  // 🟢 Protected routes (main system)
-  { path: 'departments', component: DepartmentComponent },
-  { path: 'employees', component: EmployeeComponent },
-  { path: 'attendance', component: AttendanceComponent },
-  { path: 'leaveRequest', component: LeaveRequestComponent },
-  { path: 'payroll', component: PayrollComponent },
+ 
+  {
+    path: '',
+    component: MainLayoutComponent,
+    canActivate: [authGuard],
+    children: [
+      { path: 'dashboard', component: DashboardComponent },
+      { path: 'departments', component: DepartmentComponent },
+      { path: 'employees', component: EmployeeComponent },
+      { path: 'attendance', component: AttendanceComponent },
+      { path: 'leaveRequest', component: LeaveRequestComponent },
+      { path: 'payroll', component: PayrollComponent },
+    ]
+  },
 
-  // 🟥 Wildcard route (optional, handles unknown URLs)
-  { path: '**', redirectTo: '/login' }
+  { path: '**', redirectTo: 'login' }
 ];

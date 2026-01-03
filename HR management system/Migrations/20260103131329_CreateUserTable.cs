@@ -5,7 +5,7 @@
 namespace HR_management_system.Migrations
 {
     /// <inheritdoc />
-    public partial class addUserTable : Migration
+    public partial class CreateUserTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

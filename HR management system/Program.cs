@@ -42,9 +42,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseHttpsRedirection();
+
 app.UseCors("AngularApplication");
 
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

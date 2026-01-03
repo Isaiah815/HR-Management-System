@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\APIDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\LeaveRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Entities\\LeaveRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\PayRoll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Entities\\PayRoll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +38,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeaveRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\LeaveRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\LeaveRequest.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\LeaveRequest.cs",
+              "RelativeToolTip": "Models\\Entities\\LeaveRequest.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:52:23.003Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "APIDBContext.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\APIDBContext.cs",
               "RelativeDocumentMoniker": "Models\\APIDBContext.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\APIDBContext.cs",
               "RelativeToolTip": "Models\\APIDBContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T11:30:33.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PayRoll.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\HR management system\\HR management system\\Models\\Entities\\PayRoll.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\PayRoll.cs",
@@ -55,8 +71,7 @@
               "RelativeToolTip": "Models\\Entities\\PayRoll.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:30:15.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:30:15.679Z"
             },
             {
               "$type": "Bookmark",

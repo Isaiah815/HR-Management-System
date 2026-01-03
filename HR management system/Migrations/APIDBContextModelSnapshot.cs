@@ -55,7 +55,7 @@ namespace HR_management_system.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("Attendances", (string)null);
+                    b.ToTable("Attendances");
                 });
 
             modelBuilder.Entity("HR_management_system.Models.Entities.PayRoll", b =>
@@ -88,7 +88,7 @@ namespace HR_management_system.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("PayRolls", null, t =>
+                    b.ToTable("PayRolls", t =>
                         {
                             t.HasCheckConstraint("CK_PayRoll_Allowances_Positive", "[Allowances] >= 0");
 
@@ -126,7 +126,7 @@ namespace HR_management_system.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("HR_management_system.Models.LeaveRequest", b =>
@@ -163,7 +163,7 @@ namespace HR_management_system.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("LeaveRequests", (string)null);
+                    b.ToTable("LeaveRequests");
                 });
 
             modelBuilder.Entity("HR_management_system.Modules.Department", b =>
@@ -189,7 +189,7 @@ namespace HR_management_system.Migrations
                     b.HasIndex("Name")
                         .IsUnique();
 
-                    b.ToTable("Departments", (string)null);
+                    b.ToTable("Departments");
                 });
 
             modelBuilder.Entity("HR_management_system.Modules.Employee", b =>
@@ -220,7 +220,7 @@ namespace HR_management_system.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.ToTable("Employees", (string)null);
+                    b.ToTable("Employees");
                 });
 
             modelBuilder.Entity("HR_management_system.Models.Entities.Attendance", b =>

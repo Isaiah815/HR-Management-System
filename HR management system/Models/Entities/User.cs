@@ -8,6 +8,8 @@
         public byte[] PasswordSalt { get; set; }
         public string Role { get; set; } = "User";
 
+       
+
 
     }
 }

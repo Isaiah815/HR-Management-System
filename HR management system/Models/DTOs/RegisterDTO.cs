@@ -1,8 +1,8 @@
-﻿namespace HR_management_system.Models.DTOs
-{
-    public class RegisterDTO
-    {
-       public string UserName;
-        public string Password;  
-    }
-}
+﻿//namespace HR_management_system.Models.DTOs
+//{
+//    public class RegisterDTO
+//    {
+//       public string UserName {  get; set; } = string.Empty;
+//        public string Password {  get; set; } = string.Empty;  
+//    }
+//}

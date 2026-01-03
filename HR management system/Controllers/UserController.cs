@@ -21,7 +21,7 @@ namespace HR_management_system.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterDTO request)
+        public async Task<IActionResult> Register( RegisterDTO request)
         {
             if (await _context.Users.AnyAsync(u => u.UserName == request.Username))
                 return BadRequest("Username already exists");
@@ -33,17 +33,18 @@ namespace HR_management_system.Controllers
                 UserName = request.Username,
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Role = "User"
+                Role = "User",
+              
             };
 
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+             _context.Users.Add(user);
+           await _context.SaveChangesAsync();
 
-            return Ok("User registered successfully");
+            return Ok ( new { message = "User registered successfully" });
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginDTO request)
+        public async Task<IActionResult> Login( LoginDTO request)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.UserName == request.Username);
             if (user == null)
@@ -51,9 +52,22 @@ namespace HR_management_system.Controllers
 
             if (!VerifyPasswordHash(request.Password, user.PasswordHash, user.PasswordSalt))
                 return Unauthorized("Invalid username or password");
+            var response = new UserResponseDTO
+            {
+                Id = user.Id,
+                UserName = user.UserName,
+                Role = user.Role
+            };
 
-            return Ok(new { message = "Login successful", user });
+            return Ok(new
+            { message = "Login successful", user = response });
         }
+
+
+       
+        
+
+
 
         private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
